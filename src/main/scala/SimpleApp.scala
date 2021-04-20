@@ -27,9 +27,8 @@ def main(args: Array[String]) {
     //(based on algebird Aggregator).
 
     println("Using deprecated UserDefinedAggregateFunction API:")
+    //agg - check definition
     val UDAF = spark.range(100).withColumn("group", $"id"%2).groupBy("group").agg(MeanUdaf($"id").as("mean")).show
-    
-
     
     val meanAggregator = new Aggregator[Long, AggregatorState, Double]() {
                         // Initialize your buffer
@@ -56,8 +55,7 @@ def main(args: Array[String]) {
     println("Using the Aggregator API:")
 
     val mean = spark.range(100).withColumn("group", col("id")%2).groupBy("group").agg(meanUdaf(col("id")).as("mean")).show 
-    //val b2 = s""" $mean/* """
-    //println(b2)
+    
 
     spark.stop()
 }  

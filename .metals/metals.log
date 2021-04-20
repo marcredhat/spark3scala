@@ -403,3 +403,7 @@ No more data in the client stdin, exiting...
 [0m2021.04.20 15:38:36 INFO  compiling marc (1 scala source)[0m
 [0m2021.04.20 15:38:37 INFO  time: compiled marc in 1.16s[0m
 [0m2021.04.20 15:40:20 INFO  skipping build import with status 'Installed'[0m
+[0m2021.04.20 15:52:39 INFO  compiling marc (1 scala source)[0m
+[0m2021.04.20 15:52:41 INFO  time: compiled marc in 1.31s[0m
+[0m2021.04.20 15:54:08 INFO  compiling marc (1 scala source)[0m
+[0m2021.04.20 15:54:10 INFO  time: compiled marc in 1.38s[0m
