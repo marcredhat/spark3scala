@@ -9,7 +9,8 @@
             "/root/scala/marc/src/test/scala-2.12",
             "/root/scala/marc/src/test/scala-2",
             "/root/scala/marc/src/test/java",
-            "/root/scala/marc/target/scala-2.12/src_managed/test"
+            "/root/scala/marc/target/scala-2.12/src_managed/test",
+            "/root/scala/marc/MeanAggregatorUdaf.scala"
         ],
         "dependencies": [
             "marc"
@@ -18,6 +19,7 @@
             "/root/scala/marc/.bloop/marc/scala-2.12/classes",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.12.10/scala-library-2.12.10.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sql_2.12/3.1.1/spark-sql_2.12-3.1.1.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.5.0/cats-core_2.12-2.5.0.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/univocity/univocity-parsers/2.9.1/univocity-parsers-2.9.1.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-sketch_2.12/3.1.1/spark-sketch_2.12-3.1.1.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/spark/spark-core_2.12/3.1.1/spark-core_2.12-3.1.1.jar",
@@ -31,6 +33,8 @@
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/fasterxml/jackson/core/jackson-databind/2.10.0/jackson-databind-2.10.0.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/xbean/xbean-asm7-shaded/4.15/xbean-asm7-shaded-4.15.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.5.0/cats-kernel_2.12-2.5.0.jar",
+            "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.12/0.5.4/simulacrum-scalafix-annotations_2.12-0.5.4.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/com/thoughtworks/paranamer/paranamer/2.8/paranamer-2.8.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro/1.8.2/avro-1.8.2.jar",
             "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/apache/avro/avro-mapred/1.8.2/avro-mapred-1.8.2-hadoop2.jar",
@@ -319,6 +323,23 @@
                     ]
                 },
                 {
+                    "organization": "org.typelevel",
+                    "name": "cats-core_2.12",
+                    "version": "2.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-core_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.5.0/cats-core_2.12-2.5.0.jar"
+                        },
+                        {
+                            "name": "cats-core_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-core_2.12/2.5.0/cats-core_2.12-2.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "com.univocity",
                     "name": "univocity-parsers",
                     "version": "2.9.1",
@@ -536,6 +557,40 @@
                             "name": "unused",
                             "classifier": "sources",
                             "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/spark-project/spark/unused/1.0.0/unused-1.0.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "cats-kernel_2.12",
+                    "version": "2.5.0",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "cats-kernel_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.5.0/cats-kernel_2.12-2.5.0.jar"
+                        },
+                        {
+                            "name": "cats-kernel_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/cats-kernel_2.12/2.5.0/cats-kernel_2.12-2.5.0-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "org.typelevel",
+                    "name": "simulacrum-scalafix-annotations_2.12",
+                    "version": "0.5.4",
+                    "configurations": "default",
+                    "artifacts": [
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.12",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.12/0.5.4/simulacrum-scalafix-annotations_2.12-0.5.4.jar"
+                        },
+                        {
+                            "name": "simulacrum-scalafix-annotations_2.12",
+                            "classifier": "sources",
+                            "path": "/root/.cache/coursier/v1/https/repo1.maven.org/maven2/org/typelevel/simulacrum-scalafix-annotations_2.12/0.5.4/simulacrum-scalafix-annotations_2.12-0.5.4-sources.jar"
                         }
                     ]
                 },

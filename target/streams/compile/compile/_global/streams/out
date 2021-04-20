@@ -1,4 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0m/root/scala/marc/src/main/scala/SimpleApp.scala:46:22: value show is not a member of org.apache.spark.sql.expressions.UserDefinedFunction[0m
-[0m[[0m[31merror[0m] [0m[0m    println(meanUdaf.show)[0m
-[0m[[0m[31merror[0m] [0m[0m                     ^[0m
+[0m[[0m[31merror[0m] [0m[0m/root/scala/marc/src/main/scala/SimpleApp.scala:31:77: not found: value UDAF[0m
+[0m[[0m[31merror[0m] [0m[0m    val UDAFResult = s"Using deprecated UserDefinedAggregateFunction API:  $UDAF"[0m
+[0m[[0m[31merror[0m] [0m[0m                                                                            ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
