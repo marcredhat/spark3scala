@@ -1,0 +1,123 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)
+[debug] Load.defaultLoad until apply took 743.008205ms
+[debug]                 Load.loadUnit: plugins took 343.952682ms
+[debug]                 Load.loadUnit: defsScala took 0.807995ms
+[debug] [Loading] Scanning directory /root/scala/marc/project/project
+[debug]                   Load.loadUnit: mkEval took 14.809832ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /root/scala/marc/project/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 53.259396 ms
+[info] loading settings for project marc-build-build from metals.sbt ...
+[debug]                     Load.resolveProject(marc-build-build) took 172.859974ms
+[debug]                   Load.loadTransitive: finalizeProject(Project(id marc-build-build, base: /root/scala/marc/project/project, plugins: List(<none>))) took 300.192553ms
+[debug] [Loading] Done in /root/scala/marc/project/project, returning: (marc-build-build)
+[debug]                 Load.loadUnit: loadedProjectsRaw took 1468.880248ms
+[debug]                 Load.loadUnit: cleanEvalClasses took 21.326596ms
+[debug]               Load.loadUnit(file:/root/scala/marc/project/project/, ...) took 1845.120446ms
+[debug]             Load.apply: load took 2269.37766ms
+[debug]             Load.apply: resolveProjects took 79.771439ms
+[debug]             Load.apply: finalTransforms took 214.844218ms
+[debug]             Load.apply: config.delegates took 50.165333ms
+[debug]             Load.apply: Def.make(settings)... took 1881.108503ms
+[debug]             Load.apply: structureIndex took 244.801499ms
+[debug]             Load.apply: mkStreams took 3.06377ms
+[info] loading project definition from /root/scala/marc/project/project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug]           Load.loadUnit: plugins took 7625.687198ms
+[debug]           Load.loadUnit: defsScala took 0.004257ms
+[debug] [Loading] Scanning directory /root/scala/marc/project
+[debug]             Load.loadUnit: mkEval took 0.303075ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /root/scala/marc/project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 6.477215 ms
+[info] loading settings for project marc-build from metals.sbt ...
+[debug]               Load.resolveProject(marc-build) took 42.293336ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id marc-build, base: /root/scala/marc/project, plugins: List(<none>))) took 49.870003ms
+[debug] [Loading] Done in /root/scala/marc/project, returning: (marc-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 72.616568ms
+[debug]           Load.loadUnit: cleanEvalClasses took 0.668332ms
+[debug]         Load.loadUnit(file:/root/scala/marc/project/, ...) took 7699.680501ms
+[debug]       Load.apply: load took 7725.743342ms
+[debug]       Load.apply: resolveProjects took 0.13548ms
+[debug]       Load.apply: finalTransforms took 42.439242ms
+[debug]       Load.apply: config.delegates took 0.333642ms
+[debug]       Load.apply: Def.make(settings)... took 425.96502ms
+[debug]       Load.apply: structureIndex took 101.091975ms
+[debug]       Load.apply: mkStreams took 0.00289ms
+[info] loading project definition from /root/scala/marc/project
+[debug] Evaluating tasks: bloopInstall
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@65bb6275, check cycles: false, forcegc: true
+[success] Generated .bloop/marc-build.json
+[success] Total time: 5 s, completed Apr 20, 2021 9:43:37 AM
+[debug] Running task... Cancel: bloop.integrations.sbt.Offloader$$anon$1@4c6a4ffd, check cycles: false, forcegc: true
+[debug]     Load.loadUnit: plugins took 13822.808131ms
+[debug]     Load.loadUnit: defsScala took 0.002979ms
+[debug] [Loading] Scanning directory /root/scala/marc
+[debug]       Load.loadUnit: mkEval took 0.518495ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in /root/scala/marc, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(bloop.integrations.sbt.BloopPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(bloop.integrations.sbt.BloopPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,bloop.integrations.sbt.BloopPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 2.000888 ms
+[info] loading settings for project marc from build.sbt ...
+[debug]         Load.resolveProject(marc) took 51.350134ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id marc, base: /root/scala/marc, plugins: List(<none>))) took 55.106068ms
+[debug] [Loading] Done in /root/scala/marc, returning: (marc)
+[debug]     Load.loadUnit: loadedProjectsRaw took 84.96829ms
+[debug]     Load.loadUnit: cleanEvalClasses took 6.289979ms
+[debug]   Load.loadUnit(file:/root/scala/marc/, ...) took 13915.824733ms
+[debug] Load.apply: load took 14001.123049ms
+[debug] Load.apply: resolveProjects took 0.117393ms
+[debug] Load.apply: finalTransforms took 25.888872ms
+[debug] Load.apply: config.delegates took 1.370779ms

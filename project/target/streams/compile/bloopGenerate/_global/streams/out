@@ -1,0 +1,4 @@
+[0m[[0m[0mdebug[0m] [0m[0m[marc-build] Classpath dependencies List()[0m
+[0m[[0m[0mdebug[0m] [0m[0m[marc-build] Dependencies from configurations List()[0m
+[0m[[0m[0mdebug[0m] [0m[0mBloop wrote the configuration of project 'marc-build' to '/root/scala/marc/project/.bloop/marc-build.json'[0m
+[0m[[0m[32msuccess[0m] [0m[0mGenerated .bloop/marc-build.json[0m

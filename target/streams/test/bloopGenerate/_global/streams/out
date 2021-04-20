@@ -1,0 +1,4 @@
+[debug] [marc-test] Classpath dependencies List()
+[debug] [marc-test] Dependencies from configurations List(marc)
+[debug] Bloop wrote the configuration of project 'marc-test' to '/root/scala/marc/.bloop/marc-test.json'
+[success] Generated .bloop/marc-test.json

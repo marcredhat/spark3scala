@@ -1,0 +1,210 @@
+[0m2021.04.20 09:41:20 INFO  Started: Metals version 0.10.1 in workspace '/root/scala/marc' for client vscode 1.52.1.[0m
+[0m2021.04.20 09:41:21 INFO  time: initialize in 0.5s[0m
+[0m2021.04.20 09:41:21 WARN  Build server is not auto-connectable.[0m
+[0m2021.04.20 09:41:21 WARN  no build target for: /root/scala/marc/build.sbt[0m
+[0m2021.04.20 09:41:23 INFO  no build target: using presentation compiler with only scala-library: 2.12.13[0m
+[0m2021.04.20 09:41:25 INFO  time: code lens generation in 3.77s[0m
+[0m2021.04.20 09:41:30 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals5543366454478752994/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:41:30 WARN  no build target for: /root/scala/marc/project/metals.sbt[0m
+[0m2021.04.20 09:41:30 WARN  no build target for: /root/scala/marc/project/project/metals.sbt[0m
+[0m2021.04.20 09:41:30 INFO  skipping build import with status 'Started'[0m
+[0m2021.04.20 09:41:31 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:41:35 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:41:36 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:41:38 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:41:38 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:41:41 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:41:41 INFO  [success] Total time: 3 s, completed Apr 20, 2021 9:41:42 AM[0m
+[0m2021.04.20 09:41:43 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:41:43 INFO  [info] set current project to Simple Project (in build file:/root/scala/marc/)[0m
+[0m2021.04.20 09:41:49 INFO  [success] Generated .bloop/marc-test.json[0m
+[0m2021.04.20 09:41:49 INFO  [success] Generated .bloop/marc.json[0m
+[0m2021.04.20 09:41:49 INFO  [success] Total time: 5 s, completed Apr 20, 2021 9:41:49 AM[0m
+[0m2021.04.20 09:41:49 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.20 09:41:49 INFO  time: ran 'sbt bloopInstall' in 19s[0m
+[0m2021.04.20 09:41:49 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher5757581778286824163/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading 2 projects from '/root/scala/marc/.bloop'...
+[0m[32m[D][0m Loading project from '/root/scala/marc/.bloop/marc-test.json'
+[0m[32m[D][0m Loading project from '/root/scala/marc/.bloop/marc.json'
+[0m[32m[D][0m Missing analysis file for project 'marc-test'
+[0m[32m[D][0m Missing analysis file for project 'marc'
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher5757581778286824163/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher5757581778286824163/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.20 09:41:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:41:49 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher1207610272898193848/bsp.socket'...
+Waiting for the bsp connection to come up...
+[0m[32m[D][0m Loading workspace settings from bloop.settings.json
+[0m[32m[D][0m Waiting for a connection at local:///tmp/bsp-launcher1207610272898193848/bsp.socket...
+The server is listening for incoming connections at local:///tmp/bsp-launcher1207610272898193848/bsp.socket...
+Starting thread that pumps stdin and redirects it to the bsp server...
+Starting thread that pumps server stdout and redirects it to the client stdout...
+[0m2021.04.20 09:41:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:41:50 INFO  time: Connected to build server in 0.18s[0m
+[0m2021.04.20 09:41:50 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:41:55 INFO  time: indexed workspace in 5.25s[0m
+[0m2021.04.20 09:42:36 INFO  compiling marc (2 scala sources)[0m
+[0m2021.04.20 09:42:53 WARN  there was one deprecation warning (since 3.0.0); re-run with -deprecation for details[0m
+[0m2021.04.20 09:42:53 INFO  time: compiled marc in 17s[0m
+[0m2021.04.20 09:43:21 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals2139480117623420007/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:43:23 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:43:23 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7803142196217386967/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:43:25 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:43:27 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:43:28 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:43:30 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:43:31 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:43:31 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:43:33 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:43:35 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:43:35 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:43:37 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.04.20 09:43:37 INFO  time: ran 'sbt bloopInstall' in 13s[0m
+[0m2021.04.20 09:43:37 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:43:37 INFO  [success] Total time: 5 s, completed Apr 20, 2021 9:43:37 AM[0m
+[0m2021.04.20 09:43:37 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.04.20 09:43:37 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:43:37 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.04.20 09:43:37 INFO  time: ran 'sbt bloopInstall' in 16s[0m
+[0m2021.04.20 09:43:38 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.04.20 09:43:54 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4199223100305573418/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:43:56 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:43:57 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:43:58 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:44:00 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:00 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:44:02 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:44:02 INFO  [success] Total time: 3 s, completed Apr 20, 2021 9:44:03 AM[0m
+[0m2021.04.20 09:44:02 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:44:02 INFO  [info] set current project to Simple Project (in build file:/root/scala/marc/)[0m
+[0m2021.04.20 09:44:03 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8974064574460481356/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:05 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals8495880528383916211/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:07 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:44:08 INFO  [success] Generated .bloop/marc-test.json[0m
+[0m2021.04.20 09:44:08 INFO  [success] Generated .bloop/marc.json[0m
+[0m2021.04.20 09:44:08 INFO  [success] Total time: 5 s, completed Apr 20, 2021 9:44:08 AM[0m
+[0m2021.04.20 09:44:08 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.20 09:44:09 INFO  time: ran 'sbt bloopInstall' in 14s[0m
+[0m2021.04.20 09:44:09 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.20 09:44:09 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.04.20 09:44:09 INFO  Shut down connection with build server.[0m
+No more data in the client stdin, exiting...
+[0m2021.04.20 09:44:09 INFO  Attempting to connect to the build server...[0m
+Starting the bsp launcher for bloop...
+Opening a bsp server connection with 'bsp --protocol local --socket /tmp/bsp-launcher2994937798029252838/bsp.socket'...
+[0m2021.04.20 09:44:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:09 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:09 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:09 INFO  time: Connected to build server in 0.82s[0m
+[0m2021.04.20 09:44:09 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:44:10 INFO  time: Imported build in 0.41s[0m
+[0m2021.04.20 09:44:11 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:44:11 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:12 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals7969962020850378170/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:14 INFO  time: indexed workspace in 3.34s[0m
+[0m2021.04.20 09:44:16 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:44:17 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:20 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals4583903028770862488/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:20 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:44:21 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:23 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:44:23 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:44:28 INFO  [info] loading settings for project marc-build-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:30 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals3872485850375005092/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:30 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:32 INFO  [info] welcome to sbt 1.5.0 (AdoptOpenJDK Java 1.8.0_282)[0m
+[0m2021.04.20 09:44:32 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:44:33 INFO  running '/root/.sdkman/candidates/java/current/bin/java -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar /tmp/metals6149172565982161082/sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'[0m
+[0m2021.04.20 09:44:34 INFO  [info] loading project definition from /root/scala/marc/project/project[0m
+[0m2021.04.20 09:44:35 ERROR [info] waiting for lock on /root/.ivy2/exclude_classifiers.lock to be available...[0m
+[0m2021.04.20 09:44:37 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.04.20 09:44:37 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.04.20 09:44:37 INFO  time: ran 'sbt bloopInstall' in 16s[0m
+[0m2021.04.20 09:44:37 INFO  time: ran 'sbt bloopInstall' in 7.16s[0m
+[0m2021.04.20 09:44:38 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.04.20 09:44:39 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.04.20 09:44:39 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:44:40 INFO  user cancelled sbt bloopInstall[0m
+[0m2021.04.20 09:44:40 INFO  time: ran 'sbt bloopInstall' in 6.33s[0m
+[0m2021.04.20 09:44:40 INFO  [info] loading settings for project marc-build from metals.sbt ...[0m
+[0m2021.04.20 09:44:39 INFO  [success] Total time: 16 s, completed Apr 20, 2021 9:44:40 AM[0m
+[0m2021.04.20 09:44:40 INFO  sbt bloopInstall exit: 143[0m
+[0m2021.04.20 09:44:40 INFO  [info] loading project definition from /root/scala/marc/project[0m
+[0m2021.04.20 09:44:41 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:44:41 INFO  [info] set current project to Simple Project (in build file:/root/scala/marc/)[0m
+[0m2021.04.20 09:44:42 ERROR [info] waiting for lock on /root/.ivy2/exclude_classifiers.lock to be available...[0m
+[0m2021.04.20 09:44:45 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:44:45 INFO  [success] Total time: 13 s, completed Apr 20, 2021 9:44:46 AM[0m
+[0m2021.04.20 09:44:47 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:44:47 INFO  [info] set current project to Simple Project (in build file:/root/scala/marc/)[0m
+[0m2021.04.20 09:44:48 INFO  [success] Generated .bloop/marc-test.json[0m
+[0m2021.04.20 09:44:48 INFO  [success] Generated .bloop/marc.json[0m
+[0m2021.04.20 09:44:48 INFO  [success] Total time: 5 s, completed Apr 20, 2021 9:44:48 AM[0m
+[0m2021.04.20 09:44:49 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.20 09:44:49 INFO  time: ran 'sbt bloopInstall' in 45s[0m
+[0m2021.04.20 09:44:49 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.20 09:44:49 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:49 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:49 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:49 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:50 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:50 INFO  time: Connected to build server in 0.49s[0m
+[0m2021.04.20 09:44:50 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:44:49 INFO  time: Imported build in 0.31s[0m
+[0m2021.04.20 09:44:51 INFO  [success] Generated .bloop/marc-build.json[0m
+[0m2021.04.20 09:44:51 INFO  [success] Total time: 10 s, completed Apr 20, 2021 9:44:51 AM[0m
+[0m2021.04.20 09:44:51 INFO  [info] loading settings for project marc from build.sbt ...[0m
+[0m2021.04.20 09:44:52 INFO  [info] set current project to Simple Project (in build file:/root/scala/marc/)[0m
+[0m2021.04.20 09:44:52 INFO  time: indexed workspace in 2.38s[0m
+[0m2021.04.20 09:44:53 INFO  [success] Generated .bloop/marc.json[0m
+[0m2021.04.20 09:44:53 INFO  [success] Generated .bloop/marc-test.json[0m
+[0m2021.04.20 09:44:53 INFO  [success] Total time: 5 s, completed Apr 20, 2021 9:44:53 AM[0m
+[0m2021.04.20 09:44:53 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.20 09:44:54 INFO  time: ran 'sbt bloopInstall' in 48s[0m
+[0m2021.04.20 09:44:54 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.20 09:44:54 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:54 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:54 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:54 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:54 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:54 INFO  time: Connected to build server in 0.3s[0m
+[0m2021.04.20 09:44:54 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:44:54 INFO  time: Imported build in 0.2s[0m
+[0m2021.04.20 09:44:56 INFO  time: indexed workspace in 2.03s[0m
+[0m2021.04.20 09:44:57 INFO  [success] Generated .bloop/marc.json[0m
+[0m2021.04.20 09:44:57 INFO  [success] Generated .bloop/marc-test.json[0m
+[0m2021.04.20 09:44:57 INFO  [success] Total time: 4 s, completed Apr 20, 2021 9:44:57 AM[0m
+[0m2021.04.20 09:44:57 INFO  sbt bloopInstall exit: 0[0m
+[0m2021.04.20 09:44:57 INFO  time: ran 'sbt bloopInstall' in 45s[0m
+[0m2021.04.20 09:44:57 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.20 09:44:57 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:57 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:44:57 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:57 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:44:57 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:44:57 INFO  time: Connected to build server in 0.13s[0m
+[0m2021.04.20 09:44:57 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:44:59 INFO  time: indexed workspace in 1.11s[0m
+[0m2021.04.20 09:45:01 INFO  Disconnecting from Bloop session...[0m
+[0m2021.04.20 09:45:01 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:45:01 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:45:01 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:45:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:45:01 INFO  Attempting to connect to the build server...[0m
+[0m2021.04.20 09:45:01 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /root/.cache/metals/bsp.trace.json[0m
+[0m2021.04.20 09:45:01 INFO  time: Connected to build server in 88ms[0m
+[0m2021.04.20 09:45:01 INFO  Connected to Build server: Bloop v1.4.8[0m
+[0m2021.04.20 09:45:02 INFO  time: indexed workspace in 1.18s[0m
+[0m2021.04.20 09:45:21 INFO  shutting down Metals[0m
+[0m2021.04.20 09:45:21 INFO  Shut down connection with build server.[0m
+[0m2021.04.20 09:45:21 INFO  Shut down connection with build server.[0m
